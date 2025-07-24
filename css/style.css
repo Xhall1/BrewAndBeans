@@ -230,10 +230,21 @@ img {
     color: var(--white);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .footer__navegation__link {
         color: var(--white);
         display: block;
         gap: 1rem;
+    }
+}
+
+/** ABOUT US **/
+
+
+@media (min-width: 768px) {
+    .about-us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 }
